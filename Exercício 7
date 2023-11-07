@@ -1,0 +1,7 @@
+a = float (input("digite um ano: "))
+
+if a>2000:
+print ("É um ano bissexto")
+
+if a<2000:
+print ("Não é um ano bissexto")
