@@ -1,0 +1,22 @@
+salario = float(input('Salário do colaborador: ))
+aumento = 0
+sl_at = 0
+if salario <= 280:
+aumento = salario * (20/100)
+sl_at = salario aumento
+print(sl_at)
+elif salario <= 700:
+aumento = salario * (15/100)
+sl_at = salario+ aumento
+print(sl_at)
+elif salario < 1500:
+aumento = salario * (10/100)
+sl_at = salario + aumento
+print(sl_at)
+elif salario >= 1500:
+aumento = salario + (5/100)
+sl_at = salario+ aumento
+print ("O salário antes do reajuste è:", salario)
+print ('0 percentual de aumento aplicado é:, salario/100, '%)
+print ('0 valor do aumento é:', sl_at-salario)
+print ('0 novo salário é:', sl_at)
