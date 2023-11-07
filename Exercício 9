@@ -1,0 +1,8 @@
+resultado = 0
+for i in range(5):
+    numero = float(input(f"Digite o {i+1}º número: "))
+    resultado += numero
+
+media = resultado / 5
+print(f"A soma dos números é: {resultado}")
+print(f"A média dos números é: {media}")
