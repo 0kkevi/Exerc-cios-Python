@@ -1,0 +1,10 @@
+a = int(input("Digite um Número: "))
+b = int(input("Digite outro Número: "))
+c = a or b
+while c<a:
+print("O intervalo entre eles é: ", c)
+c=c+1
+
+while c<b:
+print("O intervalo entre eles é: ", c)
+c=c+1
