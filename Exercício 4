@@ -1,0 +1,7 @@
+1 a = float (input("primeiro número: "))
+2 b = float (input("segundo número: "))
+
+if a > b:
+print("O maior número é:", a)
+else:
+print("O maior número é:", b)
