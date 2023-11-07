@@ -1,0 +1,7 @@
+a = float(input("Altura: "))
+b = int(input("Informe seu Gênero (1 = feminino/2 = masculino))
+if b == 1:
+peso = (62.1*a)-44.7
+else:
+peso = (72.7*a)-58
+print("Seu peso ideal é: ",peso)
